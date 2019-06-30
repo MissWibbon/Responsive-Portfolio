@@ -28,7 +28,7 @@ li {
     margin: auto;
 }
 body {
-    background-image: url("/assets/folk-pattern-black.png");
+    background-color: lightgrey;
 }
 .one:hover {
     font-size: 30px;
@@ -40,7 +40,7 @@ body {
     background-color: teal;
 }
 .logo {
-    width: 30%;
+    width: 100%;
     background-color: teal;
     color: white;
     padding: 10px;
@@ -54,8 +54,15 @@ label {
 ul {
     float: right;
 }
+.portfolioProjectPic {
+    background-size: cover; width: 90%; margin: auto; height: auto;
+
+}
+.wordGuess {
+    background-image: url("assets/phsycic-game.png") !important;
+}
 .footer {
-    padding: 20px; background-color: #333; width: 100%; bottom: 0; border-top: 5px solid teal; position: fixed; margin-left: -8px;
+    padding: 20px; background-color: grey; width: 100%; bottom: 0; border-top: 5px solid teal; position: fixed; margin-left: -8px;
 }
 .footer p {
     text-align: center;
@@ -65,8 +72,12 @@ ul {
     font-family: 'Fjalla One', sans-serif;
     color: grey;
 }
+a {
+    text-decoration: none;
+}
 .label {
     color: white; text-align: center; background-color: teal; padding: 10px; margin-bottom: 10%;
+    text-decoration: none;
 }
 .background-image {
     padding-top: 50%;
@@ -83,7 +94,7 @@ button {
     color: white;
     background-color: teal;
     padding: 5px;
-    border=width: 0px;
+    border-width: 0px;
     border-radius: 5px;
 }
 input, textarea {
@@ -98,7 +109,7 @@ section.aboutMe {
 }
 @media only screen and (max-width: 980px) {
     .logo {
-        width: 40%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 768px) {
