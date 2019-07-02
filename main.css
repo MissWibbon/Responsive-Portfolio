@@ -67,9 +67,9 @@ label {
 }
 
 
-.nav-item {
+.nav-link {
     font-family: 'Fjalla One', sans-serif;
-    color: grey;
+    color: white;
 }
 a {
     text-decoration: none;
