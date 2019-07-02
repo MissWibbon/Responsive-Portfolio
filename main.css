@@ -11,6 +11,7 @@
     background: white;
     height: 89px;
     position: static;
+    background-color: teal !important;
 }
 h2 {
     font-family: 'Fjalla One', sans-serif;
@@ -29,6 +30,7 @@ li {
 }
 body {
     background-color: lightgrey;
+    margin: 0;
 }
 .one:hover {
     font-size: 30px;
@@ -40,8 +42,7 @@ body {
     background-color: teal;
 }
 .logo {
-    width: 100%;
-    background-color: teal;
+    text-align: center;    
     color: white;
     padding: 10px;
     float: left;
@@ -68,13 +69,19 @@ ul {
     text-align: center;
     color: white;
 }
+a.nav-link {
+    margin-right: 40%;
+}
+
 .nav-item {
     font-family: 'Fjalla One', sans-serif;
     color: grey;
+    margin-right: 10%;
 }
 a {
     text-decoration: none;
 }
+
 .label {
     color: white; text-align: center; background-color: teal; padding: 10px; margin-bottom: 10%;
     text-decoration: none;
@@ -83,12 +90,18 @@ a {
     padding-top: 50%;
     padding-bottom: 10%;
     margin-bottom: 10px;
+    background-size: cover;
 }
-
+.col-4 {
+    width: 30%; display: inline-block;
+}
 .col-6 {
     width: 44%;
     padding: 2%;
     display: inline-block;
+}
+.col-8 {
+    width: 70%; display: inline-block; float: right;
 }
 button {
     color: white;
@@ -101,16 +114,14 @@ input, textarea {
     width: 100%;
 }
 .profile-pic {
-    width: 50%;
+    width: 30%;
 }
 section.aboutMe {
     min-height: 550px;
     margin-bottom: 110px;
 }
 @media only screen and (max-width: 980px) {
-    .logo {
-        width: 100%;
-    }
+   
 }
 @media only screen and (max-width: 768px) {
     .col-6 {
