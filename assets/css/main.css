@@ -53,7 +53,9 @@ label {
     background-size: cover; width: 90%; margin: auto; height: auto;
 
 }
-
+.wordGuess {
+    background-image: url("assets/phsycic-game.png") !important;
+}
 .footer {
     padding: 20px; background-color: grey; width: 100%; bottom: 0; border-top: 5px solid teal; position: fixed; margin-left: -8px;
 }
@@ -110,11 +112,13 @@ input, textarea {
     width: 30%;
 }
 section.aboutMe {
-    min-height: 330px;
+    min-height: 550px;
     margin-bottom: 110px;
 }
 @media only screen and (max-width: 980px) {
-  
+   .col-8 {
+        margin-bottom: 10%;
+    }
 }
 @media only screen and (max-width: 768px) {
     .col-6 {
