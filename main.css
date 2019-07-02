@@ -36,9 +36,6 @@ body {
 .one:hover {
     font-size: 30px;
 }
-.two:focus {
-    color: purple;
-}
 .three:hover {
     background-color: teal;
 }
