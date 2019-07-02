@@ -1,3 +1,6 @@
+html {
+    background-color: #7b728c;
+}
 .navBar h1 {
     float: left;
     color: white;
@@ -14,6 +17,9 @@ h2 {
 h3 {
     font-family: 'Fjalla One', sans-serif;
 }
+.subHead {
+    font-family: Arial;
+}
 li {
     display: inline-block;
     padding: 5px;
@@ -24,7 +30,7 @@ li {
     margin: auto;
 }
 body {
-    background-color: lightgrey;
+    background-color: #7b728c;
     margin: 0;
 }
 .one:hover {
@@ -55,11 +61,12 @@ label {
 }
 
 .footer {
-    padding: 20px; background-color: grey; width: 100%; bottom: 0; border-top: 5px solid teal; position: fixed; margin-left: -8px;
+    padding: 20px; background-color: #333; width: 100%; bottom: 0; border-top: 5px solid teal; position: fixed; margin-left: -8px;
 }
 .footer p {
     text-align: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -113,6 +120,72 @@ section.aboutMe {
     min-height: 330px;
     margin-bottom: 110px;
 }
+.rainbow {
+    transform: rotate(90deg);
+    fill: black;
+  }
+  
+  
+  /*This is coded CSS rainbow*/
+  
+  .rainbowtrout:hover {
+  -webkit-animation:rainbow 1s infinite;
+  -ms-animation:rainbow 1s infinite;
+  -o-animation:rainbow 1s infinite;
+  animation:rainbow 1s infinite;
+  }
+  @-webkit-keyframes rainbow {
+  0% {fill: #ff0000;}
+  10% {fill: #ff8000;}
+  20% {fill: #ffff00;}
+  30% {fill: #80ff00;}
+  40% {fill: #00ff00;}
+  50% {fill: #00ff80;}
+  60% {fill: #00ffff;}
+  70% {fill: #0080ff;}
+  80% {fill: #0000ff;}
+  90% {fill: #8000ff;}
+  100% {fill: #ff0080;}
+  }
+  @-ms-keyframes rainbow {
+  0% {fill: #ff0000;}
+  10% {fill: #ff8000;}
+  20% {fill: #ffff00;}
+  30% {fill: #80ff00;}
+  40% {fill: #00ff00;}
+  50% {fill: #00ff80;}
+  60% {fill: #00ffff;}
+  70% {fill: #0080ff;}
+  80% {fill: #0000ff;}
+  90% {fill: #8000ff;}
+  100% {fill: #ff0080;}
+  }
+  @-o-keyframes rainbow {
+  0% {fill: #ff0000;}
+  10% {fill: #ff8000;}
+  20% {fill: #ffff00;}
+  30% {fill: #80ff00;}
+  40% {fill: #00ff00;}
+  50% {fill: #00ff80;}
+  60% {fill: #00ffff;}
+  70% {fill: #0080ff;}
+  80% {fill: #0000ff;}
+  90% {fill: #8000ff;}
+  100% {fill: #ff0080;}
+  }
+  @keyframes rainbow {
+  0% {fill: #ff0000;}
+  10% {fill: #ff8000;}
+  20% {fill: #ffff00;}
+  30% {fill: #80ff00;}
+  40% {fill: #00ff00;}
+  50% {fill: #00ff80;}
+  60% {fill: #00ffff;}
+  70% {fill: #0080ff;}
+  80% {fill: #0000ff;}
+  90% {fill: #8000ff;}
+  100% {fill: #ff0080;}
+  }
 @media only screen and (max-width: 980px) {
   
 }
