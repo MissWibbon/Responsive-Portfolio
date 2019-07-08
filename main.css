@@ -10,7 +10,7 @@ html {
 .navBar {
     margin: auto;
     position: fixed;
-    margin-top: -150px;
+    margin-top: 30%;
     padding-left: 10px;
 }
 }
