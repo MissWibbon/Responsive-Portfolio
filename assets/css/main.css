@@ -129,9 +129,14 @@ input, textarea {
 }
 .profile-pic {
     width: 30%;
+    max-width: 150px;
     margin-left: 7% !important;
     padding-bottom: 0px !important;
     box-shadow: 5px 5px 10px #a8afba;
+}
+.profile-pic:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
 }
 .logoDescription {
     padding-top: 10px;
@@ -148,6 +153,13 @@ section.aboutMe {
 .footer p {
     margin-bottom: 0px;
 }
+li.nav-item {
+        display: initial;
+    }
+    a.nav-link {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
   /*This is coded CSS rainbow*/
   
   .rainbowtrout:hover {
@@ -229,13 +241,8 @@ section.aboutMe {
     .profile-pic {
         width: 100% !important;
     }
-    li.nav-item {
-        display: initial;
-    }
-    a.nav-link {
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
+    
+    
 }
 @media only screen and (max-width: 640px) {
     .nav {
