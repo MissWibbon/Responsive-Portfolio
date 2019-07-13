@@ -24,6 +24,9 @@ h2 {
 h3 {
     font-family: 'Fjalla One', sans-serif;
 }
+h4 {
+    text-align: center;
+}
 .subHead {
     font-family: Arial;
 }
@@ -51,6 +54,7 @@ body {
     padding: 10px;
     float: left;
     width: 88%;
+    
 }
 label {
     display: inherit;
@@ -105,6 +109,8 @@ a {
     width: 44%;
     padding: 2%;
     display: inline-block;
+    z-index: 4;
+    box-shadow: 5px 10px #333;
 }
 .col-8 {
     width: 70%; display: inline-block;
@@ -124,6 +130,11 @@ input, textarea {
 }
 .profile-pic {
     width: 30%;
+    padding-bottom: 0px !important;
+    box-shadow: 5px 5px 5px #333;
+}
+.logoDescription {
+    padding-top: 10px;
 }
 section.aboutMe {
     min-height: 330px;
@@ -134,7 +145,9 @@ section.aboutMe {
     fill: black;
   }
   
-  
+.footer p {
+    margin-bottom: 0px;
+}
   /*This is coded CSS rainbow*/
   
   .rainbowtrout:hover {
@@ -202,9 +215,11 @@ section.aboutMe {
     .col-6 {
         max-width: 100% !important;
         flex: 0 0 100% !important;
+        z-index: 4;
+        box-shadow: 5px 10px #333; 
     }
     .col-8 {
-        margin-bottom: 20% !important;
+        margin-bottom: 10% !important;
     }
     h2 {
         font-size: 22px !important;
@@ -220,9 +235,6 @@ section.aboutMe {
     .nav {
         height:120px;
         position: static;
-    }
-    li.nav-item {
-        display: grid;
     }
     .profile-pic {
         width: 100%;
