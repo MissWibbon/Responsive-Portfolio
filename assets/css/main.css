@@ -1,5 +1,5 @@
 html {
-    background-color: #d6d6d6;
+    background-color: #919191;
 }
 body {
     height: 0;
@@ -39,7 +39,7 @@ li {
     margin: auto;
 }
 body {
-    background-color: #d6d6d6;
+    background-color: #919191;
     margin: 0;
 }
 .one:hover {
@@ -88,7 +88,7 @@ body {
     color: #333 !important;
 }
 a.nav-link:hover {
-    color: #814BAF !important;
+    color: #cebdff !important;
 }
 a {
     text-decoration: none !important;
@@ -161,7 +161,7 @@ input, textarea {
     max-width: 150px;
     margin-left: 7% !important;
     padding-bottom: 0px !important;
-    box-shadow: 5px 5px 10px #a8afba;
+    box-shadow: 5px 5px 10px #494063;
     transition: all .3s linear;
 }
 .profile-pic:hover {
@@ -179,6 +179,7 @@ input, textarea {
 section.aboutMe {
     min-height: 330px;
     margin-bottom: 110px;
+    height: 550px;
 }
 .rainbow {
     transform: rotate(90deg);
@@ -278,7 +279,9 @@ li.nav-item {
         width: 100% !important;
     }
     
-    
+    section.aboutMe {
+        height: 625px !important;
+    }
 }
 @media only screen and (max-width: 640px) {
     .nav {
