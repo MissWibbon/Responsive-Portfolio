@@ -130,9 +130,21 @@ a {
 }
 .col-8 {
     width: 70%; display: inline-block;
-    background-color: white;
+    height: 518px;
     min-height: 480px !Important;
     float: right;
+    padding: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.col {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+section {
+    background-image: url("file:///C:/Users/wuebb/Documents/BootcampProjects/Responsive-Portfolio/assets/images/laCrosse.jpg") !important;
+    background-size: cover;
+    padding: 20px;
 }
 button {
     color: white;
@@ -254,6 +266,7 @@ li.nav-item {
     }
     .col-8 {
         margin-bottom: 7% !important;
+        height: 530px;
     }
     h2 {
         font-size: 22px !important;
