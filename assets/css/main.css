@@ -105,11 +105,14 @@ a {
     margin-bottom: 10px;
     background-size: cover;    
     border-radius: 10px;
+    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+
 }
 .background-image:hover {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
-
+    transition: all .3s linear;
+    
 }
 .col-4 {
     width: 30%; display: inline-block;
@@ -146,6 +149,7 @@ input, textarea {
 .profile-pic:hover {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
+    transition: all .3s linear;
 }
 .logoDescription {
     padding-top: 10px;
