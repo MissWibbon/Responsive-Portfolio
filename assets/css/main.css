@@ -87,6 +87,9 @@ body {
     font-family: 'Fjalla One', sans-serif;
     color: #333 !important;
 }
+a.nav-link:hover {
+    color: #814BAF !important;
+}
 a {
     text-decoration: none !important;
 }
