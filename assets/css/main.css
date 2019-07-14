@@ -106,12 +106,17 @@ a {
     background-size: cover;    
     border-radius: 10px;
     box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    transition: all .3s linear;
 
 }
 .background-image:hover {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
-    transition: all .3s linear;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
     
 }
 .col-4 {
@@ -145,11 +150,16 @@ input, textarea {
     margin-left: 7% !important;
     padding-bottom: 0px !important;
     box-shadow: 5px 5px 10px #a8afba;
+    transition: all .3s linear;
 }
 .profile-pic:hover {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
-    transition: all .3s linear;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
 }
 .logoDescription {
     padding-top: 10px;
